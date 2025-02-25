@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header {
+    padding: 75px;
+    left:60%;
+    top: 20%;
+}
+
+
+
+.collage-container {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.collage-item {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
