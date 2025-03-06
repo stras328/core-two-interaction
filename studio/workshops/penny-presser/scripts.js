@@ -19,7 +19,7 @@ pressButton.addEventListener ('click', () => {
 
     // set the penny image src
         //  pennyImage.src = 'img/' + pennySelect.value;
-    pennyImage.src = 'https://' + studentSelect.value + '.interaction.rodeo/studio/workshops/penny-presser/img/' + pennySelect.value;
+    pennyImage.src = 'https://' + studentSelect.value + '.interactive.rodeo/studio/workshops/penny-presser/img/' + pennySelect.value;
 
 
     // log the penny image
