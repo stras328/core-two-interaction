@@ -1,0 +1,39 @@
+.image {
+  width: 100px; 
+}
+
+body {
+  background-color: #caac87;
+}
+
+#intro-text {
+  font-family: "Fondamento";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  color: #564f4c;
+  transition: opacity 0.5s ease;
+}
+
+#intro-text.hidden {
+  opacity: 0; /* Hide the text smoothly */
+}
+
+.fondamento-regular {
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fondamento-regular-italic {
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.output {
+  font-family: "Fondamento";
+  font-size: 90px;
+  border: 90px;
+  color: #564f4c;
+}
